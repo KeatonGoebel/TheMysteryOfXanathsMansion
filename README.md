@@ -4,7 +4,7 @@ Link to the game: https://cloudfin.itch.io/the-mystery-of-xanaths-mansion
 
 The Mystery of Xanath's Mansion is a computer game made over four weeks for a game design course at Transylvania University. 
 It was a group project I made alongside three other people implementing an agile development strategy. 
-The logic of the game was developed using the game engine Godot while the art was made using the program Asprite.
+The logic of the game was developed using the game engine Godot while the art was made using the program Aseprite.
 I worked on the level design of the game, designing the structure of the mansion and the layout of its 14 rooms. I also contributed a significant amount of the code of the game. At one point I refactored several parts of the to make things permanent where they were not before.
 In the game, the player is a young wizard who comes to a mansion in search of magical tutelage, but finds it abandoned. 
 They are then tasked with uncovering the mystery of what happened to each of the residents of the mansion, unlocking new abilities, and defeating enemies.
