@@ -4,7 +4,8 @@ You can play the game here: https://cloudfin.itch.io/the-mystery-of-xanaths-mans
 
 The Mystery of Xanath's Mansion is a computer game made over four weeks for a game design course at Transylvania University. 
 It was a group project I made alongside three other people implimenting an agile devlopment strategy.
-The logic of the game was developed using the game engine Godot while the art was made using the program Asprite. 
+The logic of the game was developed using the game engine Godot while the art was made using the program Asprite.
+I worked on the level design of the game, designing the structure of the mansion and the layout of its 14 rooms. I also contributed a signifiant amount of the code of the game. At one point I refactored several parts of the to make things permanent where they were not before.
 In the game, the player is a young wizard who comes to a mansion is search of magical tutelage, but finds it abandoned. 
 They are then tasked with uncovering the mystery of what happened to each of the residents of the mansion, unlocking new abilities, and defeating enemies.
 The game was designed to have an open structure. The player can run straight to the final boss immediatly and beat the game in a couple minutes. However, they will have a much easier time if they spend more time in the game exploring and solve the puzzles in the enviornment. The puzzles unlock additional abilites, giving them both offensive and defensive spells. This design philoshpy makes it so that we do not overwhelm the player by giving them all their abilites at the start, while also rewarding them for their exploration. It also gives the player the freedom to engage with the game in different ways. Some players will try to beat the game as fast as possible, while some will want to explore the game as much as possible. 
@@ -33,3 +34,25 @@ Xanath's Mansion is designed to be played on the computer with the mouse and key
   - Defeating the first giant plant in the green house will unlock phase
   
 </details>
+
+## Xanath Mansion Screenshots 
+
+<a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
+  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/4214697f-5000-4cb4-a19e-0fdf3c88ec9a" width="800" height="600" alt="The Mystery of Xanath's Mansion">
+</a>
+
+<a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
+  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/7f2c7539-4e58-4644-8d1f-43d0036253fe" width="800" height="auto" alt="WxdBXR">
+</a>
+
+<a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
+  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/026b5060-16ff-485d-b1d5-ca4c428c0891" width="800" height="auto" alt="nkDKu5">
+</a>
+
+<a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
+  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/012c2571-134f-41dd-88ec-aa7bd58abd87" width="800" height="auto" alt="iROUYA">
+</a>
+
+<a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
+  <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/64a28601-d144-438e-9762-24de25a3ee1e" width="800" height="auto" alt="wVslFy">
+</a>
