@@ -1,9 +1,9 @@
 # TheMysteryOfXanathsMansion
 
-You can play the game here: https://cloudfin.itch.io/the-mystery-of-xanaths-mansion
+Link to the game: https://cloudfin.itch.io/the-mystery-of-xanaths-mansion
 
 The Mystery of Xanath's Mansion is a computer game made over four weeks for a game design course at Transylvania University. 
-It was a group project I made alongside three other people implimenting an agile devlopment strategy.
+It was a group project I made alongside three other people implimenting an agile devlopment strategy. 
 The logic of the game was developed using the game engine Godot while the art was made using the program Asprite.
 I worked on the level design of the game, designing the structure of the mansion and the layout of its 14 rooms. I also contributed a signifiant amount of the code of the game. At one point I refactored several parts of the to make things permanent where they were not before.
 In the game, the player is a young wizard who comes to a mansion is search of magical tutelage, but finds it abandoned. 
@@ -56,3 +56,10 @@ Xanath's Mansion is designed to be played on the computer with the mouse and key
 <a href="https://cloudfin.itch.io/the-mystery-of-xanaths-mansion">
   <img src="https://github.com/KeatonGoebel/TheMysteryOfXanathsMansion/assets/155006422/64a28601-d144-438e-9762-24de25a3ee1e" width="800" height="auto" alt="wVslFy">
 </a>
+
+
+### Developing the Game
+
+I spend nearly half of the total development time on the enviromental and level design, coming up with the structure for the mansion and the design of the 14 rooms. The structural design of the mansion maintains a contrast between realistic and fantastical. I decided I needed to place bathrooms on each floor, and beleivable connectors between each floor. At the same time, there is a giant wizard tower leading to Xanath. Making sure to maintain the magical elements of the mansion allows our audience to easier suspend their disbelief. Players breaking their suspension of belief when seeing the platforms floating in the air is also less likely because platforms are often blended into the environment using props. Chandlers are hung from the bottom of the platforms in the dining room to make the platforms seem less out of place. A flight of stairs is placed on the top platform in the parlor to make it seem as if the player is climbing up the stairs by jumping up the platforms. In order to build these rooms, I levereged tile maps in Godot. Tile maps are a way that Godot can organize your sprites into a set of tiles which you can map onto the level. These were so helpful because once we created sprites that could act as backgrounds and walls, we could easlily start building rooms. Godot also allows us to place collision layers onto tiles which. Tile maps allowed us to start creating rooms of different sizes and shapes quickly. 
+
+Another big contribution I made to the project was the permanance of data. We had a problem through much of development where if the player went from one room to another, things like their health, the enimies, and their abilites would all reset. This bug was because every time the player entered a new room, the game would create new instances of the scene, resetting the values of the data. In order to fix this problem, I researched how Godot handles global information. I refactored a significant amount of code, writing it into singleton auto-loaded scripts. Singletons are scripts that are automatically loaded everytime the game starts. Things such as player health, ability information, and enemy information all had to exist in a singleton so it would have global scope. Therefore if the player killed an enemy the enemy would now be permanemty defeated. This also allowed me to make several improvments. 
